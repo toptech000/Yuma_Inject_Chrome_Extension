@@ -1,12 +1,12 @@
-import React from "react";
-import { FlexPropsType } from "@/utils/types/flex";
+import React from 'react';
+import { FlexPropsType } from '@/utils/types/flex';
 
-import styles from "./flex.module.css";
+import styles from './flex.module.css';
 
 export default function Flex({
-  dir = "row", 
-  justifyContent = "flex-start",
-  alignItems = "flex-start",
+  dir = 'row', 
+  justifyContent = 'flex-start',
+  alignItems = 'flex-start',
   gap = 0,
   children
 }:FlexPropsType) {
@@ -20,5 +20,5 @@ export default function Flex({
     }}
   >
     {children}
-  </div>
+  </div>;
 }

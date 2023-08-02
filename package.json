@@ -1,7 +1,7 @@
 {
-  "name": "yumazzo",
+  "name": "yuma_demo",
   "version": "1.0.0",
-  "description": "yumazzo chrome extension",
+  "description": "yuma demo chrome extension",
   "author": "devofficer",
   "license": "MIT",
   "scripts": {
@@ -23,8 +23,8 @@
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "axios": "^1.4.0",
+    "openai": "^3.3.0",
     "react": "^17.0.2",
-    "react-country-flag": "^3.1.0",
     "react-dom": "^17.0.2",
     "react-hook-form": "^7.45.1",
     "react-router-dom": "^6.9.0",

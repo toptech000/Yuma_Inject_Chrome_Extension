@@ -1,3 +1,3 @@
 export const classNames = (...names) => {
-  return names.join(" ");
-}
+  return names.join(' ');
+};

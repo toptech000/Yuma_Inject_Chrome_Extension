@@ -1,6 +1,6 @@
 {
-  "name": "Yumazzo",
-  "description": "Yumazzo Chrome Extension",
+  "name": "Yuma Demo",
+  "description": "Yuma Demo Chrome Extension",
   "version": "1.0.0",
   "manifest_version": 3,
   "icons": {
@@ -8,11 +8,7 @@
     "48": "icon.png",
     "128": "icon.png"
   },
-  "action": {
-    "default_popup": "popup.html",
-    "default_title": "Yumazzo",
-    "default_icon": "icon.png"
-  },
+  "action": {},
   "permissions": [
     "activeTab",
     "storage",
@@ -23,9 +19,13 @@
   "host_permissions": [
     "<all_urls>"
   ],
-  "options_page": "options.html",
   "background": {
     "service_worker": "background.js"
   },
-  "content_scripts": []
+  "content_scripts": [
+    {
+      "matches": ["https://*.gorgias.com/*"],
+      "js": ["content.js"]
+    }
+  ]
 }

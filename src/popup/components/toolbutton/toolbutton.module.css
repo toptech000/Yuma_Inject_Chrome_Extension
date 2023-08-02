@@ -1,0 +1,35 @@
+.toolBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: none;
+  outline: none;
+  background-color: #171F2F;
+  transition: all 0.1s;
+  cursor: pointer;
+}
+
+.normal {
+  padding: 0px 7px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+  border-radius: 4px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  padding: 7px;
+  font-size: 10px;
+  border-radius: 100%;
+}
+
+.transparent {
+  background-color: transparent;
+}
+
+.toolBtn:hover {
+  background-color: #252A3F;
+}

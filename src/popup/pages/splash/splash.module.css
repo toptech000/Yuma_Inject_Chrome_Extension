@@ -1,0 +1,49 @@
+.container {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding-top: 150px;
+}
+
+.title {
+  text-align: center;
+  letter-spacing: -1.44px;
+}
+
+.container::before {
+  content: "";
+  width: 400px;
+  height: 400px;
+  top: 0px;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%) rotate(-89.689deg);
+  background: linear-gradient(143deg, #6100FF 0%, rgba(0, 255, 255, 0.00) 100%);
+  filter: blur(140.20758056640625px);
+}
+
+/* animation */
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}
+
+.container::after {
+  content: "";
+  width: 18px;
+  height: 18px;
+  background-color: transparent;
+  position: absolute;
+  bottom: 100px;
+  border: 2px solid white;
+  border-bottom: 2px solid transparent;
+  border-radius: 50%;
+  animation: rotate 1s linear infinite;
+}
+

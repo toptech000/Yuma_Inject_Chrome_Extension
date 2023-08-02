@@ -1,0 +1,111 @@
+/* import google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');;
+}
+
+/* global elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+}
+
+
+/* scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(120, 120, 120);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+body {
+  color: #FFF;
+  background-color: #0D1119;
+}
+
+/* headings */
+
+h1 {
+  font-size: 146px;
+}
+
+h3 {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 110%;
+  font-family: 'Poppins';
+}
+
+/* inputs */
+label {
+  font-family: "Bai Jamjuree";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-transform: capitalize;
+}
+
+input, textarea {
+  width: 100%;
+  color: white;
+  font-family: "Bai Jamjuree";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  outline: none;
+  border: none;
+  background-color: #181F30;
+}
+
+textarea:focus {
+  box-shadow: 0px 0px 0px 1px #663CDD;
+  transition: all 0.2s;
+}
+
+textarea {
+  padding: 8px 11px;
+  box-shadow: 0px 0px 0px 1px #5B6178;
+  border-radius: 6px;
+  min-height: 72px;
+  resize: none;
+}
+
+/* app container */
+.app {
+  width: 410px;
+}
+
+
+/* global class */
+.country-label {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Bai Jamjuree';
+  line-height: 17.5px;
+}
+
+.error {
+  box-shadow: 0px 0px 0px 1px #FF003D !important;
+}
